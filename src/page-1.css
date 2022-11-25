@@ -1,0 +1,29 @@
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    grid-auto-rows: 250px;
+    width: max(90%,500px);
+    background-color: var(--background-color);   
+    gap: 15px;
+    padding: 20px;
+    margin: auto;
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 3px 3px 3px 3px rgb(77, 77, 53);
+}
+
+.dish-name{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(204, 211, 115);
+}
+
+.price{
+    color: rgb(56, 7, 7);
+}

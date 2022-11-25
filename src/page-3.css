@@ -1,0 +1,7 @@
+.baratie-image-container{
+    display: flex;
+    justify-content: center;
+}
+.baratie-image{
+    width: 450px;
+}

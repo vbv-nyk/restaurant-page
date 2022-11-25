@@ -1,0 +1,12 @@
+.profile-container{
+    display: flex;
+    height: 400px;
+    width: auto;    
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-picture{
+    height: 100%;
+}
